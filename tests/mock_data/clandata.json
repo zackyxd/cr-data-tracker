@@ -1,0 +1,754 @@
+{
+  "tag": "#9U82JJ0Y",
+  "name": "TheAddictedOnes",
+  "type": "closed",
+  "description": "The #1 US War Clan In History 🇺🇸 🌍 AFAM 5K Colosseum World Record Holders: 165,900 🏆 Apply 💬 discord.gg/afam ✨CWstats.com✨",
+  "badgeId": 16000139,
+  "clanScore": 88082,
+  "clanWarTrophies": 8905,
+  "location": {
+    "id": 57000249,
+    "name": "United States",
+    "isCountry": true,
+    "countryCode": "US"
+  },
+  "requiredTrophies": 9000,
+  "donationsPerWeek": 560,
+  "clanChestStatus": "inactive",
+  "clanChestLevel": 1,
+  "clanChestMaxLevel": 0,
+  "members": 43,
+  "memberList": [
+    {
+      "tag": "#2VY0Q9CY",
+      "name": "Mayes シ",
+      "role": "member",
+      "lastSeen": "20250513T021816.000Z",
+      "expLevel": 67,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 1,
+      "previousClanRank": 36,
+      "donations": 26,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#QRJU0YQU8",
+      "name": "Phase",
+      "role": "member",
+      "lastSeen": "20250513T021619.000Z",
+      "expLevel": 62,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 2,
+      "previousClanRank": 18,
+      "donations": 44,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#QJL8LGP8",
+      "name": "MercyAches",
+      "role": "member",
+      "lastSeen": "20250513T020636.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 3,
+      "previousClanRank": 4,
+      "donations": 18,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#P8P9LPG",
+      "name": "~ASLAN~",
+      "role": "member",
+      "lastSeen": "20250513T015941.000Z",
+      "expLevel": 65,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 4,
+      "previousClanRank": 25,
+      "donations": 42,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#JCP28GG",
+      "name": "Maximus",
+      "role": "member",
+      "lastSeen": "20250513T014010.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 5,
+      "previousClanRank": 28,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8CVRPJ9",
+      "name": "LEGACY",
+      "role": "member",
+      "lastSeen": "20250513T013023.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 6,
+      "previousClanRank": 13,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#C9LUU8LVG",
+      "name": "Valinomycin",
+      "role": "member",
+      "lastSeen": "20250513T012105.000Z",
+      "expLevel": 60,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 7,
+      "previousClanRank": 7,
+      "donations": 24,
+      "donationsReceived": 120,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#LUJ8R9GQ",
+      "name": "RGød",
+      "role": "coLeader",
+      "lastSeen": "20250513T011526.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 8,
+      "previousClanRank": 20,
+      "donations": 24,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#RC8PLUQY",
+      "name": "duck",
+      "role": "member",
+      "lastSeen": "20250513T010858.000Z",
+      "expLevel": 63,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 9,
+      "previousClanRank": 37,
+      "donations": 0,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#8QVRCYC8",
+      "name": "GlockWork83",
+      "role": "member",
+      "lastSeen": "20250513T003601.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 10,
+      "previousClanRank": 26,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#PQQGV0L0",
+      "name": "FF｜Riley★",
+      "role": "member",
+      "lastSeen": "20250512T234216.000Z",
+      "expLevel": 69,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 11,
+      "previousClanRank": 1,
+      "donations": 0,
+      "donationsReceived": 40,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#VY9GUCY2",
+      "name": "2Saucy",
+      "role": "member",
+      "lastSeen": "20250512T222518.000Z",
+      "expLevel": 64,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 12,
+      "previousClanRank": 0,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#VQUQQJJ",
+      "name": "AM ⚡️ Speer",
+      "role": "member",
+      "lastSeen": "20250512T220734.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 13,
+      "previousClanRank": 0,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#2899G9JLP",
+      "name": "<c2>Chava",
+      "role": "member",
+      "lastSeen": "20250512T212819.000Z",
+      "expLevel": 68,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 14,
+      "previousClanRank": 9,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#2PG0RU8Q0",
+      "name": "Galaxy",
+      "role": "member",
+      "lastSeen": "20250512T211720.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 15,
+      "previousClanRank": 38,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#P8PQ2YU28",
+      "name": "NoA l Merxat",
+      "role": "member",
+      "lastSeen": "20250512T211351.000Z",
+      "expLevel": 64,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 16,
+      "previousClanRank": 14,
+      "donations": 34,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#QLU09RJJ",
+      "name": "<c2>T-dawg",
+      "role": "member",
+      "lastSeen": "20250512T205701.000Z",
+      "expLevel": 68,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 17,
+      "previousClanRank": 30,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#89Y998P88",
+      "name": "STW l Jordan",
+      "role": "member",
+      "lastSeen": "20250512T204035.000Z",
+      "expLevel": 66,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 18,
+      "previousClanRank": 22,
+      "donations": 26,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#YQUYVCY2",
+      "name": "M.o.B. I losito",
+      "role": "member",
+      "lastSeen": "20250512T202143.000Z",
+      "expLevel": 68,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 19,
+      "previousClanRank": 17,
+      "donations": 42,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#88Q2YJ2Y",
+      "name": "caveman13",
+      "role": "member",
+      "lastSeen": "20250512T200332.000Z",
+      "expLevel": 69,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 20,
+      "previousClanRank": 19,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#PYR8C9UV",
+      "name": "TAO｜✨Jay®ex",
+      "role": "member",
+      "lastSeen": "20250512T193428.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 21,
+      "previousClanRank": 29,
+      "donations": 26,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9QUVUL2LL",
+      "name": "Captain Levi",
+      "role": "member",
+      "lastSeen": "20250512T192620.000Z",
+      "expLevel": 64,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 22,
+      "previousClanRank": 2,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#JVJRCUJ",
+      "name": "Kaiser™️",
+      "role": "member",
+      "lastSeen": "20250512T183257.000Z",
+      "expLevel": 68,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 23,
+      "previousClanRank": 16,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#LULJ0P82",
+      "name": "AM ⚡️JacobV2",
+      "role": "member",
+      "lastSeen": "20250512T180317.000Z",
+      "expLevel": 68,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 24,
+      "previousClanRank": 3,
+      "donations": 10,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#2L0LJC0U",
+      "name": "Gabeㅣ타오✨",
+      "role": "coLeader",
+      "lastSeen": "20250512T175546.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 25,
+      "previousClanRank": 32,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#UQ2U8LVG0",
+      "name": "TAO I Henry",
+      "role": "coLeader",
+      "lastSeen": "20250512T161735.000Z",
+      "expLevel": 66,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 26,
+      "previousClanRank": 34,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#JGCJ9Y9RQ",
+      "name": "KHAIRY",
+      "role": "member",
+      "lastSeen": "20250512T154623.000Z",
+      "expLevel": 63,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 27,
+      "previousClanRank": 10,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9QJ8G80LL",
+      "name": "Jayden｜霜染翠微✨",
+      "role": "member",
+      "lastSeen": "20250512T150034.000Z",
+      "expLevel": 62,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 28,
+      "previousClanRank": 0,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#Q09UJGPLR",
+      "name": "Yoon_0117",
+      "role": "member",
+      "lastSeen": "20250512T145008.000Z",
+      "expLevel": 62,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 29,
+      "previousClanRank": 23,
+      "donations": 18,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#GRGYCC9G8",
+      "name": "Harsh✨",
+      "role": "member",
+      "lastSeen": "20250512T144541.000Z",
+      "expLevel": 62,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 30,
+      "previousClanRank": 12,
+      "donations": 26,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#20VVQVQY",
+      "name": "Luca",
+      "role": "member",
+      "lastSeen": "20250512T144000.000Z",
+      "expLevel": 64,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 31,
+      "previousClanRank": 33,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9JJRQJLRC",
+      "name": "kilibuhu",
+      "role": "member",
+      "lastSeen": "20250512T140124.000Z",
+      "expLevel": 66,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 32,
+      "previousClanRank": 35,
+      "donations": 16,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#20PP8G9L",
+      "name": "nab78654",
+      "role": "member",
+      "lastSeen": "20250512T134703.000Z",
+      "expLevel": 65,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 33,
+      "previousClanRank": 8,
+      "donations": 18,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9GLQUU0C",
+      "name": "aattcc",
+      "role": "member",
+      "lastSeen": "20250512T134419.000Z",
+      "expLevel": 67,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 34,
+      "previousClanRank": 27,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#2J02VURP",
+      "name": "Dawson27",
+      "role": "member",
+      "lastSeen": "20250512T132559.000Z",
+      "expLevel": 67,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 35,
+      "previousClanRank": 6,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#VYC0LCGRQ",
+      "name": "arturo",
+      "role": "member",
+      "lastSeen": "20250512T124818.000Z",
+      "expLevel": 61,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 36,
+      "previousClanRank": 15,
+      "donations": 16,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#22Y9JCU08",
+      "name": "LegendSoul",
+      "role": "member",
+      "lastSeen": "20250512T105059.000Z",
+      "expLevel": 66,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 37,
+      "previousClanRank": 11,
+      "donations": 18,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#9UG0PURV",
+      "name": "hess",
+      "role": "member",
+      "lastSeen": "20250512T065919.000Z",
+      "expLevel": 67,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 38,
+      "previousClanRank": 5,
+      "donations": 18,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#L2C8UJV8",
+      "name": "Sword",
+      "role": "member",
+      "lastSeen": "20250512T040008.000Z",
+      "expLevel": 69,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 39,
+      "previousClanRank": 21,
+      "donations": 16,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#CY20899UQ",
+      "name": "TX-Knight#1",
+      "role": "member",
+      "lastSeen": "20250512T030957.000Z",
+      "expLevel": 70,
+      "trophies": 9000,
+      "arena": {
+        "id": 54000020,
+        "name": "Legendary Arena"
+      },
+      "clanRank": 40,
+      "previousClanRank": 24,
+      "donations": 8,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#QJ8R9YUV8",
+      "name": "relyk",
+      "role": "member",
+      "lastSeen": "20250512T212827.000Z",
+      "expLevel": 63,
+      "trophies": 8810,
+      "arena": {
+        "id": 54000019,
+        "name": "PANCAKES!"
+      },
+      "clanRank": 41,
+      "previousClanRank": 40,
+      "donations": 18,
+      "donationsReceived": 80,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#2VYQ0UY8",
+      "name": "TAO I Rage",
+      "role": "leader",
+      "lastSeen": "20250513T004212.000Z",
+      "expLevel": 65,
+      "trophies": 8652,
+      "arena": {
+        "id": 54000019,
+        "name": "PANCAKES!"
+      },
+      "clanRank": 42,
+      "previousClanRank": 41,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    },
+    {
+      "tag": "#20CG9P8UQ",
+      "name": "KARIM",
+      "role": "member",
+      "lastSeen": "20250512T164134.000Z",
+      "expLevel": 64,
+      "trophies": 8639,
+      "arena": {
+        "id": 54000019,
+        "name": "PANCAKES!"
+      },
+      "clanRank": 43,
+      "previousClanRank": 42,
+      "donations": 0,
+      "donationsReceived": 0,
+      "clanChestPoints": 0
+    }
+  ]
+}
