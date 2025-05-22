@@ -4,9 +4,9 @@ import asyncpg
 import pytest_asyncio
 # from src.utils.path_helper import build_path
 import os
-from src.utils.pool import init_pool
+from cr_tracker.utils.pool import init_pool
 os.environ["ENV"] = "test"
-import src.config as config
+import cr_tracker.config as config
 config.load_env()
 
 

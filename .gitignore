@@ -1,4 +1,4 @@
-.env
-.env_dev
-.env_test
+src/.env
+src/.env_dev
+src/.env_test
 /.venv

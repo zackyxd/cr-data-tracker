@@ -1,7 +1,7 @@
 import pytest
-from src.api_calls.cr_api import fetch_player, fetch_members_in_clan, fetch_participants_in_clan
+from cr_tracker.api_calls.cr_api import fetch_player, fetch_members_in_clan, fetch_participants_in_clan
 from unittest.mock import AsyncMock, patch, MagicMock
-from src.api_calls.cr_api import fetch_clan
+from cr_tracker.api_calls.cr_api import fetch_clan
 import json
 from pathlib import Path
 
@@ -34,9 +34,9 @@ async def test_fetch_clan_success(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_clan(fake_pool, "#9U82JJ0Y")
         assert result['name'] == 'TheAddictedOnes'
@@ -58,9 +58,9 @@ async def test_fetch_clan_fail(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_clan(fake_pool, "#FAKETAG")
         print(result)
@@ -84,9 +84,9 @@ async def test_fetch_clan_maintenance(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_clan(fake_pool, "#FAKETAG")
         assert result.get('status') == 503
@@ -110,9 +110,9 @@ async def test_fetch_clan_unexpected_status(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_clan(fake_pool, "#9U82JJ0Y")
         assert result.get('status') is not 200 and result.get('status') is not 503 and result.get('status') is not 404
@@ -133,10 +133,10 @@ async def test_fetch_clan_triggers_maintenance(mock_client_session):
 
     fake_pool = AsyncMock()
 
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.set_maintenance", return_value=True) as mock_set_maintenance, \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None) as mock_log:
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.set_maintenance", return_value=True) as mock_set_maintenance, \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None) as mock_log:
 
         result = await fetch_clan(fake_pool, "#ABC123")
         print(result)
@@ -175,9 +175,9 @@ async def test_fetch_player_success(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_player(fake_pool, "#P9J292JCL")
         assert result['tag'] == '#P9J292JCL'
@@ -199,9 +199,9 @@ async def test_fetch_player_fail(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_player(fake_pool, "#FAKETAG")
         assert result['success'] is False
@@ -224,9 +224,9 @@ async def test_fetch_members_in_clan(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_members_in_clan(fake_pool, "#9U82JJ0Y")
         assert len(result) == 43
@@ -248,16 +248,16 @@ async def test_fetch_participants_in_clan(mock_client_session):
 
     # Mock DB pool and internal helpers
     fake_pool = AsyncMock()
-    with patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
-         patch("src.api_calls.cr_api.is_under_maintenance", return_value=False), \
-         patch("src.api_calls.cr_api.log_api_event", return_value=None):
+    with patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=True), \
+         patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False), \
+         patch("cr_tracker.api_calls.cr_api.log_api_event", return_value=None):
 
         result = await fetch_participants_in_clan(fake_pool, "#9U82JJ0Y")
         assert len(result) == 109
 
 # Test API Rate Limit Hit
-@patch("src.api_calls.cr_api.wait_and_record_api_call", return_value=False)
-@patch("src.api_calls.cr_api.is_under_maintenance", return_value=False)
+@patch("cr_tracker.api_calls.cr_api.wait_and_record_api_call", return_value=False)
+@patch("cr_tracker.api_calls.cr_api.is_under_maintenance", return_value=False)
 @pytest.mark.asyncio
 async def test_fetch_clan_rate_limited(mock_maintenance, mock_wait):
     fake_pool = AsyncMock()

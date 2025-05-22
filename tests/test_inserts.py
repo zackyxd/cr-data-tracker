@@ -5,8 +5,8 @@ import os
 from pathlib import Path
 
 
-from src.sql_scripts.sql_clans import insert_clan, insert_clans, get_clans_count
-from src.sql_scripts.sql_players import insert_player, insert_players, get_players_count
+from cr_tracker.sql_scripts.sql_clans import insert_clan, insert_clans, get_clans_count
+from cr_tracker.sql_scripts.sql_players import insert_player, insert_players, get_players_count
 
 
 @pytest.mark.asyncio
